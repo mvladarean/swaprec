@@ -1,0 +1,3 @@
+- when keeping track of the exchange sets containing a particular item of a particular user:
+    * for the particular user's top k, we need to check all sets
+    * for the rest of the users, we only need to check the entry belonging to our user. Mainly, we keep an inverted list
